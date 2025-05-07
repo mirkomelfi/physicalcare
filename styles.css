@@ -314,3 +314,137 @@ body {
   .footer-icons{
     padding-left: 0.5rem;
   }
+
+  @media (max-width: 1024px) {
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-content p {
+      font-size: 1rem;
+    }
+  
+    .intro-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .intro-image {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+  
+    .main-image, .overlay-image {
+      width: 80%;
+      position: relative;
+    }
+  
+    .overlay-image {
+      position: absolute;
+      bottom: -10px;
+      left: 10%;
+      width: 50%;
+    }
+  
+    .services-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service-image img {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hero {
+      height: 80vh;
+      padding: 2rem;
+    }
+  
+    .hero-content h1 {
+      font-size: 1.6rem;
+    }
+  
+    .hero-content p {
+      font-size: 1rem;
+    }
+  
+    .intro-section {
+      padding: 2rem 1rem;
+    }
+  
+    .intro-text h2 {
+      font-size: 1.5rem;
+    }
+  
+    .intro-description,
+    .intro-features li {
+      font-size: 0.95rem;
+    }
+  
+    .stats {
+      flex-direction: column;
+      gap: 1.5rem;
+      text-align: center;
+    }
+  
+    .services-section {
+      padding: 2rem 1rem;
+    }
+  
+    .service-cards {
+      grid-template-columns: 1fr;
+    }
+  
+    .contact-form {
+      padding: 0 1rem;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-social a {
+      margin-right: 0.5rem;
+    }
+  }
+
+
+ @media (max-width: 480px) {
+    .hero-content h1 {
+      font-size: 1.4rem;
+    }
+  
+    .hero-content p {
+      font-size: 0.95rem;
+    }
+  
+    .hero-btn, .intro-btn {
+      width: 100%;
+      padding: 1rem;
+      font-size: 1rem;
+    }
+  
+    .service-card {
+      padding: 1rem;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 0.95rem;
+    }
+  
+    .footer-content h3 {
+      font-size: 1rem;
+    }
+  
+    .footer-content p,
+    .footer-bottom {
+      font-size: 0.85rem;
+    }
+  }
